@@ -104,7 +104,7 @@ pageContainer.ontouchstart = function (e) {
   pageContainer.ontouchend = function () {
     finishMove();
     pageContainer.ontouchmove = null; // 手指离开了，不用监听移动了
-   // pageContainer.removeListener('touchmove',handler);
+   // pageContainer.removeEventListener('touchmove',handler);
   };
 };
 
